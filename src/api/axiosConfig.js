@@ -1,5 +1,5 @@
 import axios from 'axios';
 
 export default axios.create({
-    baseURL:'http://localhost:8080'
+    baseURL:'http://videoapi-env.eba-mwwazk77.sa-east-1.elasticbeanstalk.com/'
 });
